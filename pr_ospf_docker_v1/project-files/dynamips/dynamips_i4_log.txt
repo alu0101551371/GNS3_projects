@@ -1,0 +1,12 @@
+Mar 12 16:29:10.079 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Mar 12 16:29:10.079 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 40089.
+Mar 12 16:29:10.085 HYPERVISOR: exec_cmd: hypervisor version 
+Mar 12 16:29:10.086 HYPERVISOR: exec_cmd: hypervisor working_dir /home/byron/GNS3/projects/pr_ospf_docker_v1/project-files/dynamips 
+Mar 12 16:29:10.086 GENERAL: working_dir=/home/byron/GNS3/projects/pr_ospf_docker_v1/project-files/dynamips
+Mar 12 16:29:10.086 HYPERVISOR: exec_cmd: ethsw create Switch4 
+Mar 12 16:29:10.839 HYPERVISOR: exec_cmd: nio create_udp udp-fe01d02f-b10f-49de-bf0e-6990586866b4 10021 127.0.0.1 10020 
+Mar 12 16:29:10.839 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-fe01d02f-b10f-49de-bf0e-6990586866b4 
+Mar 12 16:29:10.843 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-fe01d02f-b10f-49de-bf0e-6990586866b4 1 
+Mar 12 16:29:10.874 HYPERVISOR: exec_cmd: nio create_udp udp-43d52168-565d-41ab-9bb4-6c8c74e13584 10022 127.0.0.1 10023 
+Mar 12 16:29:10.874 HYPERVISOR: exec_cmd: ethsw add_nio Switch4 udp-43d52168-565d-41ab-9bb4-6c8c74e13584 
+Mar 12 16:29:10.884 HYPERVISOR: exec_cmd: ethsw set_access_port Switch4 udp-43d52168-565d-41ab-9bb4-6c8c74e13584 1 
