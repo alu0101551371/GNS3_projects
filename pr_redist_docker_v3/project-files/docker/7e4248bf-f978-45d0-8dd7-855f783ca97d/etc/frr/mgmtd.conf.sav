@@ -1,0 +1,26 @@
+!
+! Zebra configuration saved from vty
+!   2026/03/16 18:24:28
+!
+frr version 10.0.2_git
+frr defaults traditional
+!
+hostname FRR-7
+!
+!
+!
+!
+!
+!
+interface eth0
+ ip address 10.1.0.9/30
+exit
+!
+interface eth1
+ ip address 10.1.0.2/30
+exit
+!
+interface lo
+ ip address 10.1.3.1/24
+exit
+!
